@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Edimar Neto</h1>
+</head>
+<body>
+        <p>Olá, me chamo Edimar,tenho 21 anos sou natural de Manaus mas atualmente resido em Ciudad del Este,meus principais interesses no momento são finalizar meu curso e ingressar no mercado de trabalho.</p>
+<br>
+                <script>
+                    const botao = document.createElement('button');
+                    botao.textContent = 'Clique para ver uma mensagem!';
+
+                    botao.onclick = function() {
+                        alert('Bem-vindo ao meu site!');
+
+                    }
+                    document.body.appendChild(botao);
+                </script>
+        <ul>
+                <li>Jogar videogame</li>
+                <li>Jogar futebol</li>
+                <li>Desenhar</li>
+        </ul>
+<br>
+        <img src="img.jpeg">
+<br>
+        <table border="1">
+            <tr>
+                    <th>País</th>
+                    <th>Imagem</th>
+            </tr>
+            <tr>
+                    <td>Japão</td>
+                    <td>
+                        <img src="japao.jpeg" width="200">
+                    </td>
+            </tr>
+            <tr>
+                    <td>Londres</td>
+                    <td>
+                        <img src="londres.jpg" width="200">
+                    </td>
+            </tr>
+            <tr>
+                    <td>São Francisco</td>
+                    <td>
+                        <img src="saofrancisco.jpeg" width="200">
+                    </td>
+            </tr>
+
+        </table>
+<br>
+
+<a href="https://www.apple.com/">Site de meu interesse !</a>
+
+        <style>
+                body{
+                    background-color: grey;
+                }
+                h1{
+                    text-align: center;
+                    color: brown;
+                }
+                p{
+                    font-size: x-large;
+                    text-align: justify;
+                }
+                ul {
+                    margin: 30px;
+                }
+                ul li{
+                    margin-bottom: 16px;
+                    font-size: 1.5em;
+                }
+                img {
+                    width: 200px;
+                    height: auto;
+                    border-radius:  20px;
+                }
+                table {
+                    margin: 40px auto;
+                    border-collapse: separate;
+                    border-spacing: 0;
+                    width: 60%;
+                    background: #fff;
+                    border-radius: 12px;
+                    overflow: hidden;
+                }
+                th td {
+                    padding: 16px 24px;
+                    text-align: center;
+                }
+                th{
+                    background-color: #00bcd4;
+                    color: #fff;
+                    font-size: 1.1em;
+                    letter-spacing: 1px;
+                }
+                tr: :nth-child(even) td {
+                    background-color: #f1f8e9;
+                }
+                tr: :hover td{
+                    background-color: #b2ebf2;
+                }
+                a{
+                    color: blue;
+                }
+                a:hover {
+                    color: red;
+                }
+        </style>
+</body>
+</html>
